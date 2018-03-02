@@ -2,7 +2,7 @@
 
 This Dockerfile is built off a custom Jupyter docker-stack that pulls from [nvidia/cuda:8.0-cudnn7-runtime-ubuntu16.04](https://hub.docker.com/r/nvidia/cuda/).  It also has PyTorch and Tensorflow installed by default.
 
-To start, it would be a good idea to increase the shared memory for the container with the flag `--shm-size`.  Anything more than 8 gigs would should work fine.
+To start, it would be a good idea to increase the shared memory for the container with the flag `--shm-size`.  Anything more than 8 gigs should work fine.
 
 In order to use CUDA, the container will need to be started with nvidia-docker.
 
