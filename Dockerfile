@@ -10,7 +10,7 @@ RUN conda update --quiet --yes jupyterlab \
 
 RUN pip install jupyterlab_latex
 
-RUN conda install --quiet --yes tensorflow=1.3* \
+RUN conda install --quiet --yes tensorflow-gpu=1.3* \
     keras=2.0* \
     pytorch \
     torchvision \
