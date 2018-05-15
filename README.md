@@ -12,4 +12,4 @@ The command to run the container is:
 nvidia-docker run -d --shm-size 8G -p 8888:8888 jupyter-datascience:latest jupyter lab
 ```
 
-The `jupyter lab` command can be left off to use the legacy Jupyter notebook.
+The `jupyter lab` command can be left off to use the legacy Jupyter notebook.  This notebook also contains several convenience extensions for Jupyterlab.  They can be found in the Dockerfile.
